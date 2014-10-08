@@ -1,11 +1,14 @@
 <?php
 // ICEcoder system settings
 $ICEcoderSettings = array(
-	"versionNo"		=> "2.5",
-	"codeMirrorDir"		=> "CodeMirror-3.13",
+	"versionNo"		=> "4.3",
+	"codeMirrorDir"		=> "CodeMirror-4.2",
+	"docRoot"		=> $_SERVER['DOCUMENT_ROOT'],
 	"demoMode"		=> false,
 	"devMode"		=> false,
+	"loginRequired"		=> true,
 	"multiUser"		=> false,
-	"lineEnding"		=> "\n"
+	"lineEnding"		=> "\n",
+	"enableRegistration"	=> true
 );
 ?>
